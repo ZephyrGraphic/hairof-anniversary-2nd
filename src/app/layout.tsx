@@ -18,11 +18,11 @@ export const viewport: Viewport = {
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://hairof-anniversary-2nd.vercel.app'),
-  title: "Happy 2nd Anniversary, Rofi! ❤️",
-  description: "Spesial untuk Ade (Rofi), dari Mas (Kai). Baca surat kecil ini ya... Mas minta maaf & sayang banget sama Ade.",
+  title: "Happy 2nd Anniversary, Sayang! ❤️",
+  description: "Spesial untuk Ade, dari Mas. Baca surat kecil ini ya... Mas minta maaf & sayang banget sama Ade.",
   openGraph: {
-    title: "Happy 2nd Anniversary, Rofi! ❤️",
-    description: "Spesial untuk Ade (Rofi), dari Mas (Kai). Mas nulis ini dari hati yg paling tulus.",
+    title: "Happy 2nd Anniversary, Sayang! ❤️",
+    description: "Spesial untuk Ade, dari Mas. Mas nulis ini dari hati yg paling tulus.",
     url: 'https://hairof-anniversary-2nd.vercel.app',
     siteName: 'Kai & Rofi Anniversary',
     images: [
@@ -38,8 +38,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Happy 2nd Anniversary, Rofi! ❤️",
-    description: "Spesial untuk Ade (Rofi), dari Mas (Kai).",
+    title: "Happy 2nd Anniversary, Sayang! ❤️",
+    description: "Spesial untuk Ade, dari Mas.",
     images: ['/images/couple.jpg'],
   },
 };

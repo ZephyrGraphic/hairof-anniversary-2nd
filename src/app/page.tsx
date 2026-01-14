@@ -192,7 +192,7 @@ export default function Home() {
                   <div className="mt-8 flex flex-col items-end">
                     <div className="w-16 h-0.5 bg-primary/30 mb-4 rounded-full"></div>
                     <span className="text-slate-500 dark:text-white/60 text-sm mb-1">With all my love,</span>
-                    <span className="text-xl font-bold text-slate-900 dark:text-white font-display">Mas (Kai)</span>
+                    <span className="text-xl font-bold text-slate-900 dark:text-white font-display">Mas</span>
                   </div>
                 </div>
                 
