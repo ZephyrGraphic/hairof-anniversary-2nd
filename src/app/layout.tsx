@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Plus_Jakarta_Sans, Dancing_Script } from "next/font/google";
 import "./globals.css";
 
@@ -12,9 +12,36 @@ const dancing = Dancing_Script({
   subsets: ["latin"],
 });
 
+export const viewport: Viewport = {
+  themeColor: '#ee2b5b',
+};
+
 export const metadata: Metadata = {
-  title: "2nd Anniversary - Haikal & Qodimah",
-  description: "Two years of love, laughter, and learning.",
+  metadataBase: new URL('https://hairof-anniversary-2nd.vercel.app'),
+  title: "Happy 2nd Anniversary, Rofi! ❤️",
+  description: "Spesial untuk Ade (Rofi), dari Mas (Kai). Baca surat kecil ini ya... Mas minta maaf & sayang banget sama Ade.",
+  openGraph: {
+    title: "Happy 2nd Anniversary, Rofi! ❤️",
+    description: "Spesial untuk Ade (Rofi), dari Mas (Kai). Mas nulis ini dari hati yg paling tulus.",
+    url: 'https://hairof-anniversary-2nd.vercel.app',
+    siteName: 'Kai & Rofi Anniversary',
+    images: [
+      {
+        url: '/images/couple.jpg',
+        width: 800,
+        height: 600,
+        alt: 'Kai & Rofi Together',
+      },
+    ],
+    locale: 'id_ID',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: "Happy 2nd Anniversary, Rofi! ❤️",
+    description: "Spesial untuk Ade (Rofi), dari Mas (Kai).",
+    images: ['/images/couple.jpg'],
+  },
 };
 
 export default function RootLayout({
